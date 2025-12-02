@@ -44,7 +44,7 @@ Esta é uma edição especial, pois marca a primeira vez em que um artigo escrit
 
     _Ensaio analítico por Guilherme H. F. Silva._
 
-    Modelos grandes de linguagem (LLM) foram criados na tentatia de generalizar o maior número de tarefas possível, na esperança de criar uma inteligência artificial geral (AGI). Apesar do estado da arte ainda não ter atingido este ponto, esta tecnologia já está revolucionando a maneira como pensamos em solucionar tarefas, tendo novas aplicações sendo encontradas diariamente. Com o foco de pesquisa voltada para LLMs, outros modelos baseados em tecnologias similares, como os modelos de difusão, tem menor ritmo de descoberta de aplicações do seu poder de generalização.
+    Modelos grandes de linguagem (LLM) foram criados na tentatia de generalizar o maior número de tarefas possível, na esperança de criar uma inteligência artificial geral (AGI). Apesar do estado da arte ainda não ter atingido este ponto, esta tecnologia já está revolucionando a maneira como pensamos em solucionar tarefas, tendo novas aplicações sendo encontradas diariamente. Com o foco de pesquisa voltada para LLMs, outros modelos baseados em tecnologias similares, como os modelos de difusão, tem menor ritmo de aplicações do seu poder de generalização. Esta é uma área vasta, que ainda pode revelar aplicações em áreas inesperadas.
   ],
 )
 
