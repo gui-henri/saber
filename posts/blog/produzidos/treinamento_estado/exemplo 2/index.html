@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2: Estado Manual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento Manual de Estado</h1>
+        <div class="controls">
+            <button id="counter-btn">Contador: 0</button>
+        </div>
+        
+        <div class="grid">
+            <!-- Row 1 -->
+            <div class="row">
+                <button class="toggle-btn" data-target="box-1">Toggle 1</button>
+                <div id="box-1" class="box hidden">0</div>
+            </div>
+            
+            <!-- Row 2 -->
+            <div class="row">
+                <button class="toggle-btn" data-target="box-2">Toggle 2</button>
+                <div id="box-2" class="box hidden">0</div>
+            </div>
+            
+            <!-- Row 3 -->
+            <div class="row">
+                <button class="toggle-btn" data-target="box-3">Toggle 3</button>
+                <div id="box-3" class="box hidden">0</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

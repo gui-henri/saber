@@ -1,0 +1,76 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #1d1f21;
+  color: #c5c8c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid #4d4d4d;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #282a2e;
+}
+
+h1 {
+  color: #81a2be;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #373b41;
+  color: #b5bd68;
+  border: 1px solid #4d4d4d;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #4d4d4d;
+}
+
+.controls {
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  height: 60px;
+  /* Fixed height to prevent jumping */
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #81a2be;
+  color: #1d1f21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
